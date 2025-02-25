@@ -13,7 +13,7 @@ function Navbar() {
                     <div className='flex gap-10'>
                     <Link to='/home' className="text-1xl font-bold">Home</Link>
                     <Link to='/sobre' className="text-1xl font-bold">Sobre</Link>
-                    <Link to='/sobre' className="text-1xl font-bold">Funcionario</Link>
+                    <Link to='/funcionarios' className="text-1xl font-bold">Funcionarios</Link>
                     </div>
                 </div>
             </div>

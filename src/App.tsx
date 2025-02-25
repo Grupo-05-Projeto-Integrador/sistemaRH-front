@@ -3,6 +3,7 @@ import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/home/Home'
 import './App.css'
+import ListaFuncionarios from './components/funcionarios/listarfuncionarios/ListarFuncionarios'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
+              <Route path="/funcionarios" element={<ListaFuncionarios />} />
             </Routes>
           </div>
           <Footer />
